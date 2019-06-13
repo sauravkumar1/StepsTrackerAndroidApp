@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/gradient_steps"    >
+   <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        android:layout_weight="1"
+        android:id="@+id/cv_cardview"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/gradient_steps">
+    <LinearLayout
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:background="?android:attr/selectableItemBackground">
+        <TextView
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="@string/gender"
+            android:textSize="19sp"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="16dp"
+            />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_margin="8dp"
+        android:id="@+id/rg_gender">
+        <RadioButton android:id="@+id/radio_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:checked="true"/>
+        <RadioButton android:id="@+id/radio_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:text="@string/female"
+         />
+    </RadioGroup>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLineSeparator"/>
+
+        <LinearLayout
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground">
+            >
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="@string/height"
+                android:textColor="@color/colorWhite"
+                android:textSize="19sp"
+                android:layout_margin="18dp"
+               />
+
+            <TextView
+                android:id="@+id/tv_height"
+                android:layout_weight="1"
+                android:paddingStart="8dp"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                android:layout_margin="8dp"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorLineSeparator"/>
+
+    <LinearLayout
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:background="?android:attr/selectableItemBackground">
+         >
+        <TextView
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="@string/weight"
+            android:textColor="@color/colorWhite"
+            android:textSize="19sp"
+            android:layout_margin="16dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_weight"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:paddingStart="8dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            android:layout_margin="8dp"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLineSeparator"/>
+
+
+    <LinearLayout
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:background="?android:attr/selectableItemBackground">>
+        <TextView
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="@string/sensitivity"
+            android:textColor="@color/colorWhite"
+            android:textSize="19sp"
+            android:layout_margin="16dp"
+
+            />
+
+        <Spinner
+            android:id="@+id/sp_sensitivity"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="8dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLineSeparator"/>
+    <LinearLayout
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:background="?android:attr/selectableItemBackground">
+        <TextView
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="@string/steplength"
+            android:textColor="@color/colorWhite"
+            android:textSize="19sp"
+            android:layout_margin="16dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_stepLength"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:paddingStart="8dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            android:layout_margin="8dp"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLineSeparator"/>
+
+
+
+
+    <LinearLayout
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:background="?android:attr/selectableItemBackground">
+        <TextView
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="@string/pace"
+            android:textColor="@color/colorWhite"
+            android:textSize="19sp"
+            android:layout_margin="16dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_pace"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:paddingStart="8dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            android:layout_margin="8dp"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLineSeparator"/>
+
+
+    <LinearLayout
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:background="?android:attr/selectableItemBackground">
+        <TextView
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="@string/sound"
+            android:textColor="@color/colorWhite"
+            android:textSize="19sp"
+            android:layout_margin="16dp"
+            />
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:paddingStart="8dp"
+            android:layout_margin="8dp"
+            >
+        <ImageView
+            android:id="@+id/iv_soundcontrol"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/cd_sound"
+            android:paddingStart="8dp"
+            android:background="@drawable/sound"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLineSeparator"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

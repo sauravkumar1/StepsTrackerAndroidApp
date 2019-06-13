@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "202450990266",
+    "firebase_url": "https://stepstracker-76dde.firebaseio.com",
+    "project_id": "stepstracker-76dde",
+    "storage_bucket": "stepstracker-76dde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202450990266:android:2c8b40a28fbf9fbe",
+        "android_client_info": {
+          "package_name": "com.example.android.stepstracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202450990266-iqroit4fqlchlofkgkt2irkqdbtfc216.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU35pWD44Fy9wbgIVEi19v7sWxKRDuH-U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
